@@ -1,8 +1,8 @@
-package semester1.Tugas6;
+package semester1.Belajar;
 
 import java.util.Scanner;
 
-class Main{
+class BelahKetupat{
     public static void main(String args[]){
         
         Scanner input = new Scanner(System.in);
