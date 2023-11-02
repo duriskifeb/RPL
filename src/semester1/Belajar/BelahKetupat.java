@@ -23,7 +23,7 @@ class BelahKetupat{
             }
 
             for(int j = 1; j <= i; j++){
-                System.out.print(" *");
+                System.out.print(" +");
             }
             System.out.println();
         }
@@ -34,7 +34,7 @@ class BelahKetupat{
             }
 
             for(int k = a - 1; k >= i; k--){
-                System.out.print(" *");
+                System.out.print(" +");
             }
             System.out.println();
         }
