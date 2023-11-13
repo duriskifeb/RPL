@@ -1,4 +1,4 @@
-package semester1.Belajar;
+package semester1.SoalAlgoritmaDilkom;
 
 import java.util.Scanner;
 
