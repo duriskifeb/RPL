@@ -31,6 +31,8 @@ public class segitiga {
             System.out.println();
         }
 
+        
+
     }
 }
 

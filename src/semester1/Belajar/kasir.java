@@ -70,7 +70,7 @@ public class kasir {
         System.out.println("|===========================================|");
         System.out.println("| 1. Es boba                     Rp 10.000  |");
         System.out.println("| 2. Es cendol dawet             Rp 10.000  |");
-        System.out.println("| 3. Es capucino                  Rp 5.000  |");
+        System.out.println("| 3. Es capucino                 Rp 5.000  |");
         System.out.println("| 4. Es teh wico                 Rp 5.000   |");
         System.out.println("| 5. Es serut durian             Rp 7.000   |");
         System.out.println("|===========================================|");
@@ -125,14 +125,14 @@ public class kasir {
 
         System.out.println("|=========================================|");
         System.out.println("|             DAFTAR PEMBELIAN            |");
-        System.out.println("=========================================");
-        System.out.println("| MAKANAN         : " + nama_makanan);
-        System.out.println("| Jumlah porsi   : " + jumlah_porsi);
-        System.out.println("| minuman   : " + nama_minuman);
-        System.out.println("| Jumlah Gelas   : " + jumlah_gelas);
-        System.out.println("|===========================================");
-        System.out.println("| TOTAL HARGA   : " + jumlah_semua);
-        System.out.println("|==========================================|");
+        System.out.println("|=========================================|");
+        System.out.println("| MAKANAN         : " + nama_makanan  + "\t  |");
+        System.out.println("| Jumlah porsi    : " + jumlah_porsi + "\t                  |");
+        System.out.println("| minuman         : " + nama_minuman + "\t  |");
+        System.out.println("| Jumlah Gelas    : " + jumlah_gelas + "\t                  |");
+        System.out.println("|=========================================|");
+        System.out.println("| TOTAL HARGA     : " + jumlah_semua);
+        System.out.println("|=========================================|");
 
 
 
