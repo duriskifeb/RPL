@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 
 
 
-public class BangQU {
+public class TugasAkhir_1 {
     public static void main(String[] args) {
         Apk cek = new Apk();
         cek.Home();

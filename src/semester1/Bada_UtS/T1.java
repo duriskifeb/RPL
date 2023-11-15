@@ -6,21 +6,37 @@ public class T1 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.println("========== semangat ========");
-        System.out.print("Masukkan bilangan dalam basis 1,0: ");
-        int decimalNumber = input.nextInt();
+            
+        //menu
+        System.out.println("|==============================|");
+        System.out.println("|KONVERSI BILANGAN KE BINER    |");
+        System.out.println("|==============================|");
 
-        // Mengonversi bilangan dalam basis 10 ke basis 2 dengan perulangan
-        String binaryNumber = "";
-        int hasilBagi = decimalNumber;
+        //user input
+        System.out.print("Ubah biner : ");
+        int in = input.nextInt();
+        input.close();
 
-        while (hasilBagi > 0) {
-            int remainder = hasilBagi % 2;
-            binaryNumber = remainder + binaryNumber;
-            hasilBagi = hasilBagi / 2;
+        //cek panjang biner
+        int index = 0;
+        int cekIn = in;
+        while(cekIn > 1){
+            cekIn /= 2;
+            index++;
+        }
+        
+        //mengkonversi ke biner
+        int[] biner = new int[index + 1];
+        for(int i = index; i >= 0; i--){
+            biner[i] = in % 2;
+            in /= 2;
         }
 
-        System.out.println("biner dalam basis 2 adalah: " + binaryNumber);
-        
+        //print ke layar
+        System.out.print("Biner : ");
+        for(int i = 0; i <= index; i++) System.out.print(biner[i]); 
+
+        System.out.println("\n");
+
     }
 }

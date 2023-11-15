@@ -4,20 +4,20 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class AplikasiRitel {
+public class TaRitel {
     public static void main(String[] args) throws IOException {
-        AplikasiRitel apk = new AplikasiRitel();
+        TaRitel apk = new TaRitel();
         apk.menu();
 
     }
 
     String nama, kode;
-    int hJ, hB, stock ;
+    int hJ, hB, stock ; 
 
     BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
 
     void next() throws IOException {
-        System.out.println("\n==============================\n");
+        System.out.println("\n----------------------------\n");
             System.out.print("Tekan ENTER untuk lanjut");
             String temp = input.readLine();
             System.out.println(temp);
@@ -49,15 +49,15 @@ public class AplikasiRitel {
             cls();
             String temp = "";
 
-            System.out.println("==============================");
+            System.out.println("----------------------------");
             System.out.println("SELAMAT DATANG DI APLIKASI RITEL");
-            System.out.println("==============================\n");
+            System.out.println("----------------------------\n");
             System.out.println("1. Tambahkan data barang");
             System.out.println("2. Tampilkan data barang");
             System.out.println("3. Menambah stok barang");
             System.out.println("4. Menjual stok barang");
             System.out.println("0. Tutup aplikasi");
-            System.out.println("\n==============================\n");
+            System.out.println("\n----------------------------\n");
 
             System.out.print("Masukan pilihan(angka): ");
             temp = input.readLine();
@@ -100,9 +100,9 @@ public class AplikasiRitel {
     void tambahBrg() throws IOException {
         cls();
 
-        System.out.println("==============================");
+        System.out.println("----------------------------");
         System.out.println("MENU MENAMBAHKAN DATA BARANG");
-        System.out.println("==============================\n");
+        System.out.println("----------------------------\n");
 
         String temp;
         
@@ -123,9 +123,9 @@ public class AplikasiRitel {
     void infoBrg() {
         cls();
 
-        System.out.println("==============================");
+        System.out.println("----------------------------");
         System.out.println("MENAMPILKAN DATA BARANG");
-        System.out.println("==============================\n");
+        System.out.println("----------------------------\n");
 
         System.out.printf("Kode\t\t: %s\n", kode);
         System.out.printf("Nama\t\t: %s\n", nama);
@@ -139,9 +139,9 @@ public class AplikasiRitel {
     void tambahStok() throws IOException {
         cls();
 
-        System.out.println("==============================");
+        System.out.println("----------------------------");
         System.out.println("MENU MENAMBAH STOK BARANG");
-        System.out.println("==============================\n");
+        System.out.println("----------------------------\n");
 
         String temp;
 
@@ -162,9 +162,9 @@ public class AplikasiRitel {
     void jualStok() throws IOException {
         cls();
 
-        System.out.println("==============================");
+        System.out.println("----------------------------");
         System.out.println("MENU MENJUAL STOK BARANG");
-        System.out.println("==============================\n");
+        System.out.println("----------------------------\n");
 
         String temp;
 
