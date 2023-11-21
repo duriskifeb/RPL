@@ -1,6 +1,5 @@
-
-
 package semester1.Tugas7;
+
 
 import java.util.Scanner;
 

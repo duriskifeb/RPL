@@ -1,6 +1,5 @@
-
-
 package semester1.Tugas7;
+
 
 import java.util.Scanner;
 
@@ -36,7 +35,7 @@ public class TugasAkhir3 {
             }
             
             System.out.println();
-            System.out.println("\n\t====> Terimakasih <====");
+            System.out.println("\n     ====> Terimakasih <====");
             System.out.print("\nLanjut?(Nggeh/Mboten) : ");
             next = input.nextLine();
         } while (next.equals("Nggeh"));

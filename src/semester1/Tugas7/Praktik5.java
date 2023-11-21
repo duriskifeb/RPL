@@ -1,5 +1,4 @@
 package semester1.Tugas7;
-
 import java.util.Random;
 import java.util.Scanner;
 
@@ -35,6 +34,7 @@ public class Praktik5 {
                 } else {
                     System.out.println("tebakan anda lebih kecil");
                     min = tebak;
+                    System.out.println();
                 }
             } else {
                 System.out.println("Tebakan diluar rentang");
@@ -43,6 +43,6 @@ public class Praktik5 {
             counter = counter + 1;
         } while (tebak != nilai);
         System.out.println("Nilai yang dicari adalah : " + nilai);
-        System.out.println("Berhasil menebak dalam " + counter + " kali");
+        System.out.println("Selamat anda berhasil menebak dalam " + counter + " kali");
     }
 }
