@@ -10,7 +10,7 @@ public class menuBerulang {
 
         do {
             System.out.println("================================");
-            System.out.println("--o0  Daftar Menu Teh Ilkom 0o--");
+            System.out.println("--o0  Daftar Menu Teh riski 0o--");
             System.out.println("================================");
             System.out.println("1. Teh Susu");
             System.out.println("2. Teh Thai Tea");

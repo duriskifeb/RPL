@@ -2,16 +2,17 @@ package semester1.SoalAlgoritmaDilkom;
 
 import java.util.Scanner;
 
-import semester1.Belajar.casting;
+// import semester1.Belajar.casting;
 
 public class GajiKaryawan {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.println("---o0 Aplikasi 0o---");
+        System.out.println("  ----o0 H! 0o----");
         System.out.println("Hitung gaji Karyawan  ");
-        System.out.println("----o0 * 0o----");
+        System.out.println("  ----o0 H! 0o----");
 
+        System.out.println();
         String nama;
         char golongan;
         int jam_kerja = 0, upah_per_jam = 0, total_upah;
