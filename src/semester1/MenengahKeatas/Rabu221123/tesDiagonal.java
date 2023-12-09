@@ -1,4 +1,4 @@
-package semester1.MenengahKeatas;
+package semester1.MenengahKeatas.Rabu221123;
 
 import java.util.Scanner;
 

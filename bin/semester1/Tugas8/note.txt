@@ -1,0 +1,3 @@
+menambahkan 3 atrinut yang wajib 
+
+better dan setter 
