@@ -1,3 +1,5 @@
-Nama  :Rizky Febriyanti
+Nama  : Rizky Febriyanto
 
-NIM  : 1201230037
+NIM   : 1201230037
+
+prodi : Rekayasa Perangkat Lunak
