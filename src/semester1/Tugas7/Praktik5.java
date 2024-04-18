@@ -27,17 +27,17 @@ public class Praktik5 {
             tebak = inp.nextInt();
             if ((tebak >= min) && (tebak <= max)) {
                 if (tebak == nilai)
-                    System.out.println("tebakan anda benar");
+                    System.out.println("\n[ tebakan anda benar ]\n");
                 else if (tebak > nilai) {
-                    System.out.println("tebakan anda lebih besar");
+                    System.out.println("tebakan anda lebih besar\n");
                     max = tebak;
                 } else {
-                    System.out.println("tebakan anda lebih kecil");
+                    System.out.println("tebakan anda lebih kecil\n");
                     min = tebak;
                     System.out.println();
                 }
             } else {
-                System.out.println("Tebakan diluar rentang");
+                System.out.println("Tebakan diluar rentang\n");
                 System.out.println("Tebak antara " + min + " dan " + max);
             }
             counter = counter + 1;
