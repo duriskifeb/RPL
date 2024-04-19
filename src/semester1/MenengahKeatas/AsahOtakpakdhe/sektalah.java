@@ -17,7 +17,7 @@ public class sektalah {
 
     // Metode untuk merubah nilai
     public void ubahNilai(int nilaiBakooru) {
-        this.nilai = nilaiBaru;
+        this.nilai = nilaiBakooru;
     }
 
     // Metode untuk mengurangi nilai
@@ -40,20 +40,20 @@ public class sektalah {
 
         System.out.println("Nilai awal: " + operasi.dapatkanNilai());
 
-        System.out.print("Masukkan jumlah untuk ditambah: ");
+        System.out.print("Masukkan jumlah untuk ditambah : ");
         int tambah = scanner.nextInt();
         operasi.tambahNilai(tambah);
-        System.out.println("Setelah ditambah " + tambah + ": " + operasi.dapatkanNilai());
+        System.out.println("Setelah ditambah " + tambah + " hasilnya adalah : " + operasi.dapatkanNilai());
 
         System.out.print("Masukkan nilai baru: ");
         int nilaiBaru = scanner.nextInt();
         operasi.ubahNilai(nilaiBaru);
         System.out.println("Setelah diubah menjadi " + nilaiBaru + ": " + operasi.dapatkanNilai());
 
-        System.out.print("Masukkan jumlah untuk dikurangi: ");
+        System.out.print("Masukkan jumlah untuk dikurangi : ");
         int kurangi = scanner.nextInt();
         operasi.kurangiNilai(kurangi);
-        System.out.println("Setelah dikurangi " + kurangi + ": " + operasi.dapatkanNilai());
+        System.out.println("Setelah dikurangi " + kurangi + " hasilnya adalah : " + operasi.dapatkanNilai());
 
         scanner.close();
     }
