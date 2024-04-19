@@ -32,6 +32,7 @@ public class sektalah {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        
 
         System.out.print("Masukkan nilai awal: ");
         int nilaiAwal = scanner.nextInt();
