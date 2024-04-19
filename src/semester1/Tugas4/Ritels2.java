@@ -19,7 +19,7 @@ class Ritels2 {
     }
 }
 
-class Barang {
+class Barang1 {
     String kode;
     String nama;
     int stock;
