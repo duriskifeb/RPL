@@ -6,9 +6,9 @@ public class spiral {
     public static void main(String[] args) {
         Scanner userInput = new Scanner(System.in);
 
-        System.out.println("---o0 HI! 0o---");
-        System.out.println("SPIRAL ABYSS FLOOR 12");
-        System.out.println("---o0 HI! 0o---\n");
+        System.out.println("|---o0 HI! 0o-----|");
+        System.out.println("|   Obat nyamuk   |");
+        System.out.println("|---o0 HI! 0o---\n|");
 
         System.out.print("Masukkan ukuran : ");
         int size = userInput.nextInt();
