@@ -1,4 +1,4 @@
-package semester1.Tugas2;
+package Semester1.Tugas2;
 
 public class TambahNilai {
     public static void main(String[] args) {

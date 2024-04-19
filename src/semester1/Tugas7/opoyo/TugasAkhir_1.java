@@ -1,4 +1,4 @@
-package semester1.Tugas7.opoyo;
+package Semester1.Tugas7.opoyo;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

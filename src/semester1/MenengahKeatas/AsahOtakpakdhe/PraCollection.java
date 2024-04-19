@@ -1,4 +1,4 @@
-package semester1.MenengahKeatas.AsahOtakpakdhe;
+package Semester1.MenengahKeatas.AsahOtakpakdhe;
 
 import java.util.ArrayList;
 import java.util.Collections;

@@ -1,4 +1,4 @@
-package semester1.Tugas6;
+package Semester1.Tugas6;
 import java.util.Scanner;
 
 public class bismillah {

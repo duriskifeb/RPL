@@ -1,4 +1,4 @@
-package semester1.Bada_UtS;
+package Semester1.Bada_UtS;
 import java.text.DecimalFormat;
 import java.util.Scanner;
 

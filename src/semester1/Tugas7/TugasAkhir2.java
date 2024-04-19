@@ -1,9 +1,10 @@
-package semester1.Tugas7;
+package Semester1.Tugas7;
 
 import java.io.IOException;
 import java.util.Scanner;
-import semester1.Tugas7.opoyo.TugasAkhir_1;
-import semester1.Tugas7.opoyo.TugasAkhir_2;
+
+import Semester1.Tugas7.opoyo.TugasAkhir_1;
+import Semester1.Tugas7.opoyo.TugasAkhir_2;
 
 class TA_2 {
 

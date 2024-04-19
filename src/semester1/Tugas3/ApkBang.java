@@ -1,4 +1,4 @@
-package semester1.Tugas3;
+package Semester1.Tugas3;
 
 
 import java.io.BufferedReader;

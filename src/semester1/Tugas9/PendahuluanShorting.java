@@ -1,4 +1,4 @@
-package semester1.Tugas9;
+package Semester1.Tugas9;
 
 
 public class PendahuluanShorting {

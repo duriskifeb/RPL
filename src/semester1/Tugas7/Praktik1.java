@@ -1,4 +1,4 @@
-package semester1.Tugas7;
+package Semester1.Tugas7;
 
 import java.util.Scanner;
 

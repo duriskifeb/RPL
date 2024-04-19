@@ -1,4 +1,4 @@
-package semester1.Tugas1;
+package Semester1.Tugas1;
 import java.util.Scanner;
 
 public class mrizkyfebriyanto_1201230037 {

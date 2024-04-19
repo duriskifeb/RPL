@@ -1,4 +1,4 @@
-package semester1.Tugas4;
+package Semester1.Tugas4;
 
 import java.io.BufferedReader;
 import java.io.IOException;
